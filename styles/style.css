@@ -453,7 +453,6 @@ border: none;
 
     .Bandarban{
         width: 335px;
-        height: 516px;
         flex-shrink: 0;
         margin-top: 20px;
 
@@ -489,6 +488,8 @@ border: none;
         padding-top:40px;   
     }
 }
+
+
 
 
 /*  Choosing part start*/
@@ -590,11 +591,43 @@ border: none;
 
 
 @media screen and (max-width:576px){
-    
+
+    .why{
+        padding: 5px 5px ;
+    }
+
+    .world-hand{
+        gap: 30px;
+        padding: 5px 10px;
+        flex-direction: column;
+    }
+
+    .handpicked{
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+
+    .worldclass{
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+        margin-bottom: 10px;
+    }
+
+    .best-price{
+        margin:5px 5px; 
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
 }
 
 
 /*  Choosing part end*/
+
+
+
 
 
 /*perfect place section start*/
@@ -682,15 +715,30 @@ border: none;
 }
 
 @media screen and (max-width:576px){
-    
-}
+    .perfect-place{
+        padding: 5px 10px;
+        flex-direction: column;
+    }
 
+    .perfect-pic{
+        width: 335px;
+        height: 200px;
+        flex-shrink: 0;
+    }
+
+    .watch{
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+}
 
 /*perfect place section end*/
 
 
 /*news letter section start*/
-
 
 .news{
     display: flex;
@@ -769,7 +817,93 @@ border: none;
     font-size: 32px;
     font-weight: 800;
 }
+
+.br{
+    display: none;
+}
+@media screen and (max-width:576px){
+    .news{
+        padding: 5px 10px;
+        flex-direction: column;
+
+    }
+
+    .news-letter{
+        width: 335px;
+        height: 322px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        padding: 5px 10px;
+    }
+    .news-pera{
+        color: #5A5A5D;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .name-text{
+        margin:5px 10px ;
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: rgb(123, 239, 224);
+        margin-left: 2px;
+        border: none;
+    }
+
+    .input-email{
+        margin:5px 10px ;
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background:  rgb(183, 143, 241);
+        margin-left: 2px;
+        border: none;
+    }
+
+    .br{
+        display:flex;
+    }
+
+    #subscribe{
+        margin:5px 5px ;
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .news-pic{
+        
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-bottom: 30px;
+    }
+
+    #up-to{
+        width: 250px;
+        height: 100px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 16px;
+        margin-top: 180px;
+        margin-left: 100px;
+    }
+    
+    .save-up{
+        
+        font-size: 25px;
+        font-weight: 800;
+    }
+}
+
 /*news letter section end*/
+
 
 /* footer start */
 
@@ -799,22 +933,6 @@ border: none;
  padding-left:650px;
 }
 
-.twitter{
-    
-}
-
-.facebook{
-   
-}
-
-.instagram{
-
-}
-
-.github{
-
-}
-
 .footer-line{
     width: 872px;
     height: 1px;
@@ -828,3 +946,47 @@ border: none;
     font-weight: 300;
     margin: 0 650px;
 }
+
+@media screen and (max-width:576px){
+    .footer{
+        width: 375px;
+        height: 809px;
+        flex-shrink: 0;
+        background: rgb(231, 231, 241);
+    }
+
+    .footer-company{
+        align-items: center;
+        gap: 5px;
+        padding:5px 10px;
+    }
+
+    .footer-para{
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 10px;
+        margin-top: 5px;
+    
+    }
+    .social-media{
+        padding-left:120px;
+       }
+
+       .copyright{
+        color: #131318;
+        font-size: 16px;
+        font-weight: 200;
+        padding-top: 5px;
+        margin:0 130px;
+    }
+
+    .footer-line{
+        width: 290px;
+        margin: 50px 50px;
+
+    }
+    
+}
+/* footer end */
