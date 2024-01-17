@@ -747,7 +747,11 @@ border: none;
 }
 
 #subscribe{
-    margin:60px 120px ;
+    margin:60px 10px ;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
 }
 
 #up-to{
@@ -766,3 +770,61 @@ border: none;
     font-weight: 800;
 }
 /*news letter section end*/
+
+/* footer start */
+
+.footer{
+    width: 100%;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgb(231, 231, 241);
+}
+.footer-company{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px 580px;
+}
+
+.footer-para{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 200px;
+
+}
+
+.social-media{
+ padding-left:650px;
+}
+
+.twitter{
+    
+}
+
+.facebook{
+   
+}
+
+.instagram{
+
+}
+
+.github{
+
+}
+
+.footer-line{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 60px 135px;
+}
+
+.copyright{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 650px;
+}
